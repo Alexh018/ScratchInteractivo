@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.selected{
+    @apply bg-amber-600 origin-bottom scale-y-110 transition-transform;
+}
