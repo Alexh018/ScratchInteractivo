@@ -25,14 +25,14 @@ export function createExCard(exercise) {
     imgSol.className = 'w-1/2 mx-auto transition duration-300 blur origin-left';
 
     let cImagenes = document.createElement('div');
-    cImagenes.className = 'flex flex-row justify-center items-center';
+    cImagenes.className = 'flex flex-row justify-center items-center gap-1';
 
     cImagenes.appendChild(imgHelp);
     cImagenes.appendChild(imgSol);
 
     let botonMostrar = document.createElement('button');
     botonMostrar.textContent = 'Mostrar Solución';
-    botonMostrar.className = 'bg-amber-500 w-fit px-5 py-2 rounded mx-auto cursor-pointer hover:bg-amber-400 hover:shadow-md';
+    botonMostrar.className = 'bg-amber-500 w-fit px-5 py-2 my-2 rounded mx-auto cursor-pointer hover:bg-amber-400 hover:shadow-md';
     botonMostrar.addEventListener('click', (event) => showSol(event, imgSol));
 
     contenedor.append(enunciadoP);
