@@ -16,19 +16,26 @@ export function createExCard(exercise) {
     enunciadoP.innerHTML = `<span class="font-bold">${exercise.numero}</span>.\t ${exercise.enunciado}`;
     enunciadoP.className = 'text-justify"';
 
-    let imgHelp = document.createElement('img');
-    imgHelp.src = exercise.urlAyuda;
-    imgHelp.className = 'w-1/2 mx-auto';
-
-    let imgSol = document.createElement('img');
-    imgSol.src = exercise.urlSol;
-    imgSol.className = 'w-1/2 mx-auto transition duration-300 blur origin-left';
-
     let cImagenes = document.createElement('div');
     cImagenes.className = 'flex flex-row justify-center items-center gap-1';
 
-    cImagenes.appendChild(imgHelp);
-    cImagenes.appendChild(imgSol);
+    let imgHelp = null;
+    if (exercise.urlAyuda != '') {
+        imgHelp = document.createElement('img')
+        imgHelp.src = exercise.urlAyuda;
+        imgHelp.className = 'w-1/2 mx-auto';
+        imgHelp.addEventListener('error', () => imgHelp.classList.add('hidden'));
+        cImagenes.appendChild(imgHelp);
+    }
+
+    let imgSol = null;
+    if (exercise.urlSol != '') {
+        imgSol = document.createElement('img');
+        imgSol.src = exercise.urlSol;
+        imgSol.className = 'w-1/2 mx-auto transition duration-300 blur origin-left';
+        imgSol.addEventListener('error', () => imgSol.classList.add('hidden'));
+        cImagenes.appendChild(imgSol);
+    }
 
     let botonMostrar = document.createElement('button');
     botonMostrar.textContent = 'Mostrar Solución';
@@ -50,8 +57,10 @@ export function createExCard(exercise) {
 function showSol(event, img) {
 
 
-    img.classList.toggle('blur');
-    event.target.textContent = img.classList.contains('blur') ? 'Mostrar Solución' : 'Ocultar Solución';
+    if (img) {
+        img.classList.toggle('blur');
+        event.target.textContent = img.classList.contains('blur') ? 'Mostrar Solución' : 'Ocultar Solución';
+    }
     /*
     if (img.classList.contains('hidden')) {
         img.classList.remove('hidden');

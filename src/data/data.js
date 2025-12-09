@@ -52,7 +52,7 @@ export const EjerciciosJSON = [
         id: "6",
         numero: 6,
         enunciado:
-          "Elabora un programa que pida un número al usuario y muestre su triple en pantalla. Utiliza los mismos bloques que en el ejercicio 4.",
+          "Elabora un programa que pida un número al usuario y muestre su triple en pantalla.",
         urlAyuda: "/img/help/ej6.png",
         urlSol: "/img/sol/ej6.png"
       },
@@ -167,7 +167,7 @@ export const EjerciciosJSON = [
         numero: 18,
         enunciado:
           "Crea un bloque llamado Preparar que coloque al personaje en (0,0), apunte a 90 grados, fije el color azul del lápiz y suba el lápiz.",
-        urlAyuda: "/img/help/ej18.png",
+        urlAyuda: "",
         urlSol: "/img/sol/ej18.png"
       },
       {
@@ -175,7 +175,7 @@ export const EjerciciosJSON = [
         numero: 19,
         enunciado:
           "Crea un bloque EscribirMayor que escriba en pantalla el mayor de dos números pasados como parámetros. Usa los bloques del ejercicio 11.",
-        urlAyuda: "/img/help/ej19.png",
+        urlAyuda: "",
         urlSol: "/img/sol/ej19.png"
       }
     ]
@@ -189,7 +189,7 @@ export const EjerciciosJSON = [
         numero: 20,
         enunciado:
           "Crea una conversación entre dos personajes sincronizada mediante pausas, de forma que cada frase dure lo mismo que la espera del otro personaje.",
-        urlAyuda: "/img/help/ej20.png",
+        urlAyuda: "",
         urlSol: "/img/sol/ej20.png"
       },
       {
@@ -197,7 +197,7 @@ export const EjerciciosJSON = [
         numero: 21,
         enunciado:
           "Crea una conversación en la que cada personaje avise al otro mediante un mensaje cuando le toque hablar.",
-        urlAyuda: "/img/help/ej21.png",
+        urlAyuda: "",
         urlSol: "/img/sol/ej21.png"
       },
       {
@@ -205,7 +205,7 @@ export const EjerciciosJSON = [
         numero: 22,
         enunciado:
           "Crea un programa con tres objetos que reboten en la pantalla. Al tocar uno con el ratón, todos deben detenerse. Deben comenzar con dirección aleatoria entre 0 y 360.",
-        urlAyuda: "/img/help/ej22.png",
+        urlAyuda: "",
         urlSol: "/img/sol/ej22.png"
       },
       {
@@ -213,30 +213,8 @@ export const EjerciciosJSON = [
         numero: 23,
         enunciado:
           "Crea una variante del ejercicio anterior usando clones en vez de tres objetos independientes.",
-        urlAyuda: "/img/help/ej23.png",
+        urlAyuda: "",
         urlSol: "/img/sol/ej23.png"
-      }
-    ]
-  },
-
-  {
-    categoria: "Multimedia",
-    ejercicios: [
-      {
-        id: "24",
-        numero: 24,
-        enunciado:
-          "Crea una presentación en la que los cambios de escenario marquen el orden de reproducción del contenido.",
-        urlAyuda: "/img/help/ej24.png",
-        urlSol: "/img/sol/ej24.png"
-      },
-      {
-        id: "25",
-        numero: 25,
-        enunciado:
-          "Crea un programa donde el escenario sea una imagen subida por ti.",
-        urlAyuda: "/img/help/ej25.png",
-        urlSol: "/img/sol/ej25.png"
       }
     ]
   },
