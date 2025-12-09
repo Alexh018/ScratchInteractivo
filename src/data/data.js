@@ -167,7 +167,7 @@ export const EjerciciosJSON = [
         numero: 18,
         enunciado:
           "Crea un bloque llamado Preparar que coloque al personaje en (0,0), apunte a 90 grados, fije el color azul del lápiz y suba el lápiz.",
-        urlAyuda: "",
+        urlAyuda: "/img/help/ej18.png",
         urlSol: "/img/sol/ej18.png"
       },
       {
