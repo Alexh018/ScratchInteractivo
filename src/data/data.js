@@ -189,7 +189,7 @@ export const EjerciciosJSON = [
         numero: 20,
         enunciado:
           "Crea una conversación entre dos personajes sincronizada mediante pausas, de forma que cada frase dure lo mismo que la espera del otro personaje.",
-        urlAyuda: "",
+        urlAyuda: "/img/hel`p/ej20.png",
         urlSol: "/img/sol/ej20.png"
       },
       {
@@ -197,7 +197,7 @@ export const EjerciciosJSON = [
         numero: 21,
         enunciado:
           "Crea una conversación en la que cada personaje avise al otro mediante un mensaje cuando le toque hablar.",
-        urlAyuda: "",
+        urlAyuda: "/img/hel`p/ej21.png",
         urlSol: "/img/sol/ej21.png"
       },
       {
