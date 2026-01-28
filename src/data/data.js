@@ -189,7 +189,7 @@ export const EjerciciosJSON = [
         numero: 20,
         enunciado:
           "Crea una conversación entre dos personajes sincronizada mediante pausas, de forma que cada frase dure lo mismo que la espera del otro personaje.",
-        urlAyuda: "/img/hel`p/ej20.png",
+        urlAyuda: "/img/help/ej20.png",
         urlSol: "/img/sol/ej20.png"
       },
       {
@@ -197,7 +197,7 @@ export const EjerciciosJSON = [
         numero: 21,
         enunciado:
           "Crea una conversación en la que cada personaje avise al otro mediante un mensaje cuando le toque hablar.",
-        urlAyuda: "/img/hel`p/ej21.png",
+        urlAyuda: "/img/help/ej21.png",
         urlSol: "/img/sol/ej21.png"
       },
       {
@@ -205,7 +205,7 @@ export const EjerciciosJSON = [
         numero: 22,
         enunciado:
           "Crea un programa con tres objetos que reboten en la pantalla. Al tocar uno con el ratón, todos deben detenerse. Deben comenzar con dirección aleatoria entre 0 y 360.",
-        urlAyuda: "",
+        urlAyuda: "/img/help/ej22.png",
         urlSol: "/img/sol/ej22.png"
       },
       {
@@ -213,7 +213,7 @@ export const EjerciciosJSON = [
         numero: 23,
         enunciado:
           "Crea una variante del ejercicio anterior usando clones en vez de tres objetos independientes.",
-        urlAyuda: "",
+        urlAyuda: "/img/help/ej23.png",
         urlSol: "/img/sol/ej23.png"
       }
     ]
